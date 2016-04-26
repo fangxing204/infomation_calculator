@@ -18,6 +18,6 @@ public class AvgInfomation extends CustomFunction {
            infoSum +=  - v * ( Math.log(v) / Math.log( 2 ) );
             sum += v;
         }
-        return sum;
+        return infoSum;
     }
 }
